@@ -16,5 +16,8 @@
           "run_at": "document_start"
       }
   ],
-  "web_accessible_resources": ["js/injector.js"]
+  "web_accessible_resources": ["js/injector.js"],
+  "permissions": [
+    "webRequest"
+  ]
 }
