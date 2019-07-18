@@ -17,7 +17,7 @@ class Injector {
     document.querySelector('head').appendChild(styleTag)
   }
 
-  static getInjected () {
+  static run () {
     logger('Injector is ready.')
 
     const style = localStorage.getItem(STYLE_KEY)
@@ -41,4 +41,4 @@ class Injector {
 
 window.Injector = Injector
 
-window.Injector.getInjected()
+window.Injector.run()

@@ -5,6 +5,4 @@ function injectCustomJs(jsPath) {
   document.body.appendChild(temp)
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  injectCustomJs('js/injector.js')
-})
+injectCustomJs('js/injector.js')
