@@ -4,6 +4,11 @@
   "version": "0.0.1",
   "description": "",
   "homepage_url": "https://github.com/jrainlau/injector",
+  "icons": {
+    "16": "images/logo.png",
+    "48": "images/logo.png",
+    "128": "images/logo.png"
+  },
   "content_scripts": [
       {
           "matches": ["*://*/*"],
